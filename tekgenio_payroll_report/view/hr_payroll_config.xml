@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+            parent="hr_payroll.menu_hr_payroll_report" name="Generate Report"
+            id="menu_custom_payroll_monthly_report_generation"
+            action="tekgenio_payroll_report.payroll_monthly_report_form_action" sequence="30"/>
+</odoo>
